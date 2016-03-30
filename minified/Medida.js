@@ -1,0 +1,1 @@
+!function(t){"use strict";function n(t,n){this.numero=t,this.unidad=n}n.prototype={getNumero:function(){return this.numero},setNumero:function(t){this.numero=t},getUnidad:function(){return this.unidad},setUnidad:function(t){this.unidad=t}},t.Medida=n}(this);

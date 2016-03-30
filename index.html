@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8">
+  <title>Conversor</title>
+  <meta name="description" content="Conversor de medidas">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/skeleton.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="assets/css/practica3.css">
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="assets/js/Medida.js"></script>
+  <script type="text/javascript" src="assets/js/Temperatura.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  <script type="text/javascript" src="assets/libs/xregexp-3.1.0/xregexp-all.js"></script>
+  <!-- FAVICON
+  -------------------------------------------------- -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+</head>
+<body>
+
+  <div class="container app">
+
+    <div class="row" >
+      <div class="one-half column" >
+        <h4>Conversor</h4>
+        <p>Este conversor te permite hacer conversiones de Temperaturas (Celsius, Fahrenheit y Kelvin). Ejemplo: 23C para Celsius. Para usarlo
+        hay que seguir el siguiente formato: 32F (to) K. Presione <b>Enter</b> cuando tenga lo que quiere convertir.</p>
+        <label>Introduzca un valor</label>
+        <input id="original" class="u-full-width" type="text" onkeydown= "main();" placeholder="32F to K">
+
+        <span id="converted"></span>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+      <div class="container">
+        <div class="row">
+          <div class="one-half column">
+            <img src="assets/images/logoULL.png" alt="ull">
+          </div>
+          <div class="one-half column">
+            <nav id="nav">
+              <ul>
+                <li class="active"><a href="http://alu0100698688.github.io/web/index.html">Página principal</a></li>
+                <li class="active"><a href="https://campusvirtual.ull.es/1516/course/view.php?id=178">Campus de la asignatura</a></li>
+                <li class="active"><a href="https://github.com/ULL-ESIT-GRADOII-PL/eliminacion-del-switch-estefania_morales">Repositorio</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>
