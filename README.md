@@ -1,5 +1,7 @@
 ## TAREA 6: KARMA Y TRAVIS
 
+[![Build Status](https://travis-ci.org/alu0100698688/karma-y-travis-estefania_morales.svg?branch=master)](https://travis-ci.org/alu0100698688/karma-y-travis-estefania_morales)
+
 ### Requisitos de la práctica
   1. Partiendo de la práctica de Mocha, Chai y Sinon añada ejecución de las pruebas con Karma y Travis.
   2. Añada a su README.md un badge Travis (Build Status) indicando el estado de las pruebas en Travis y enlazando a las mismas.
