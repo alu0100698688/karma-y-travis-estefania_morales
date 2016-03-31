@@ -14,9 +14,9 @@
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-htmlmin": "^1.3.0",
     "gulp-uglify": "^1.5.3",
-    "mocha": "*",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chai-plugins": "^0.7.0",
@@ -27,6 +27,7 @@
     "karma-mocha": "^0.2.2",
     "karma-opera-launcher": "^0.3.0",
     "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "*",
     "phantomjs-prebuilt": "^2.1.6"
   },
   "dependencies": {
@@ -37,6 +38,6 @@
     "request": "^2.69.0"
   },
   "scripts": {
-   "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
   }
 }

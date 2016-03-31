@@ -3,6 +3,7 @@ var uglify = require('gulp-uglify');
 var del = require('del');
 var cssmin = require('gulp-minify-css');
 var htmlmin = require('gulp-htmlmin');
+var ghPages = require('gulp-gh-pages');
 
 
 var paths = {
@@ -32,4 +33,10 @@ gulp.task('minify', function() {
     .pipe(cssmin())
     .pipe(gulp.dest('minified'))
 
+});
+
+
+gulp.task('deploy', function() {
+  return gulp.src([])
+    .pipe(ghPages());
 });
